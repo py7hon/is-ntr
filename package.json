@@ -1,0 +1,22 @@
+{
+  "name": "is-ntr",
+  "version": "0.0.1",
+  "description": "Is Netorare?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "axios": "*",
+    "pug": "*"
+  },
+  "repository": {
+    "url": "https://github.com/py7hon/is-ntr"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
