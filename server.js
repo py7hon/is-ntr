@@ -5,7 +5,7 @@ const axios = require("axios");
 app.set("view engine", "pug");
 
 app.use(express.static("public"));
-
+app.set('views', `${__dirname}/views`);
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/views/index.html");
 });
